@@ -1,0 +1,11 @@
+{
+  "name": "shopkaro-ecommerce",
+  "version": "1.0.0",
+  "description": "Full Stack E-Commerce — React + Node.js + MongoDB + Stripe",
+  "scripts": {
+    "server":  "cd server && npm run dev",
+    "client":  "cd client && npm start",
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "seed":    "cd server && npm run seed"
+  }
+}
